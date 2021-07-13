@@ -1,0 +1,28 @@
+[package]
+name = "sapphire-stage0"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "sapphire"
+
+[dependencies]
+anyhow = "1.0.41"
+buf_redux = "0.8.4"
+derivative = "2.2.0"
+derive-new = "0.5.9"
+derive_builder = "0.10.2"
+either = "1.6.1"
+ghost = "0.1.2"
+itertools = "0.10.1"
+llvm-rs = {path = "../llvm-rs"}
+maplit = "1.0.2"
+nom = "6.2.1"
+nom-greedyerror = "0.3.1"
+nom_locate = "3.0.1"
+num-derive = "0.3.3"
+num-traits = "0.2.14"
+structopt = "0.3.22"
+uuid = { version = "0.8.2", features = ["v4"] }

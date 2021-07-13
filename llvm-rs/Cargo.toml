@@ -1,0 +1,14 @@
+[package]
+authors = ["angeart <shinoyuki.angeart@gmail.com>"]
+description = "LLVM Rust wrapper"
+edition = "2018"
+license = "BSD-3-Clause"
+name = "llvm-rs"
+repository = "https://github.com/Angeart/sapphire-rust"
+version = "0.1.0"
+
+[lib]
+name = "llvm"
+
+[dependencies]
+llvm-sys = "110"
